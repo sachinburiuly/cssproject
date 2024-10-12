@@ -1,0 +1,203 @@
+body{
+
+    margin:0;
+    padding:0;
+    }
+
+    .container{
+        width:1280px;
+        height:2000px;
+        background: rgb(227, 255, 142);
+        margin:0 auto;
+      
+      
+    }
+    .toparea{
+        width:1280px;
+        height:80px;
+        background: rgb(148, 142, 255);
+        border-bottom: solid 2px whitesmoke;
+       
+       
+    }
+    #all{
+        top:0;
+        position: sticky;
+        z-index: 1000;
+    }
+    .top1{
+        width:30%;
+        height:80px;
+        background: rgb(59, 33, 5);
+        float:left;
+    }
+    .top1 h1{
+        font-size: 20px;
+        letter-spacing:2px;
+        padding-left: 35px;
+        padding-top: 15px;
+        color: rgb(255, 253, 116);
+        text-shadow: -1px -2px 3px rgba(0,0,0,0.6);
+    }
+   
+    .top2{
+        width:55%;
+        height:80px;
+        background: rgb(59, 33, 5);
+        float:left;
+       
+    }
+    
+
+    .top2 ul li{
+        list-style:none;
+        float:left;
+        padding:15px 10px; 
+        text-transform: capitalize;
+       font-weight: bolder; 
+       text-shadow: -1px -1px 3px rgba(0,0,0,0.6); 
+       
+    }
+    .top2 ul li a{
+        text-decoration: none;
+        color: aliceblue;
+        position: relative;
+     
+
+    }
+    .top2 ul li a::after{
+        content: "";
+      position: absolute;
+    left:0;
+       height:2px;
+       width:0;
+       background-color: rgb(252, 255, 98);
+       bottom:-8px;
+       transition:0.2s ;  
+        
+    }
+    .top2 ul li a:hover::after{
+        width:100% ;
+       
+    }
+    
+    .top3{
+        width:5%;
+        height:80px;
+        background: rgb(59, 33, 5);
+        float:left;
+    }
+    .top3 i{
+        padding-left: 10px;
+        padding-top: 20px;
+        font-size: 40px;
+    }
+   
+    .top4{
+        width:10%;
+        height:80px;
+        background: rgb(59, 33, 5);
+        float:left;
+    }
+    .top4 p{
+        padding-left: 20px;
+        padding-top: 10px;
+        font-weight: bolder; 
+        text-shadow: -1px -1px 3px rgb(4, 44, 244);
+    }
+
+    .top4 p a:link,.top4 p a:visited{
+        color: aliceblue;
+        text-decoration: none;
+        background: hwb(241 1% 0%);
+        padding:10px 10px;
+        border-radius: 10px;
+       
+    }
+    .menuarea{
+        width:1280px;
+        height:60px;
+        background: rgb(142, 255, 153);
+
+      
+       
+    }
+    .menu1{
+        width:10%;
+        height:60px;
+        background: rgb(59, 33, 5);
+        float:left;
+    }
+    .menu1 i{
+        padding-left: 40px;
+        padding-top: 10px;
+        font-size: 40px;
+    }
+    .menu2{
+        width:70%;
+        height:60px;
+        background: rgb(59, 33, 5);
+        float:left;
+    }
+    .menu2 ul li{
+        list-style:none;
+        float:left;
+        padding:6px 10px; 
+        text-transform: capitalize;
+       font-weight: bolder; 
+       text-shadow: -1px -1px 3px rgba(0,0,0,0.6); 
+       
+    }
+    .menu2 ul li a{
+        text-decoration: none;
+        color: aliceblue;
+        position: relative;
+    
+    }
+    .menu2 ul li a::after{
+        content: "";
+      position: absolute;
+        left:0;
+       height:2px;
+       width:0;
+       background-color: rgb(252, 255, 98);
+       bottom:-8px;
+       transition:0.2s ;  
+        
+    }
+    .menu2 ul li a:hover::after{
+        width:100% ;
+       
+    }
+  
+    .menu3{
+        width:20%;
+        height:60px;
+        background: rgb(59, 33, 5);
+        float:left;
+    }
+    .menu3 i{
+        padding-left: 100px;
+        padding-top: 15px;
+        font-size: 30px;
+        color: aliceblue;
+    }
+    .boxarea{
+        width:100%;
+        height:800px;
+       background-image: url('sign.jpg');
+        position: relative;
+        
+    }
+   .box1{
+        width:1080px;
+        height:700px;
+        background: rgb(255, 245, 183);
+        box-shadow: -1px 3px 4px 1px rgb(151, 151, 148);
+        position:absolute;
+        margin:50px 100px;
+      
+       
+        
+        
+    }

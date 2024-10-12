@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+    padding: 0;
+    }
+    *{
+        padding:0;
+        margin:0;
+        box-sizing: border-box;
+    }
+
+   .container{
+    width:1255px;
+    height:800px; 
+        background-image:url('l.jpg'); 
+        margin:0 auto;
+        position: relative; 
+      
+    }
+    .area{
+        width:400px;
+        height:720px;   
+        background:rgb(255, 255, 255);  
+        margin:0 auto; 
+        margin:50px 400px;
+        position: absolute;
+        border-radius: 10px;
+        box-shadow: -1px 3px 4px 1px rgba(0,0,0,0.75);
+    } 
+    .area h1{
+        text-transform: uppercase;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #01860a;
+        border-bottom:solid red 2px;
+        text-shadow: 3px 0px 3px rgba(0,0,0,0.6);       
+    } 
+    .area h3{
+        text-transform:lowercase;
+        color: #010638;
+        text-align: center;
+       border-bottom:dashed red 2px;
+       font-size: 25px;
+       color: #7c4545;
+       text-shadow: -1px 1px 3px rgba(10,8,8,0.6);
+       
+    } 
+    .area img{
+      width:100px;
+      height:100px;
+      margin-left:150px ;
+      margin-top: 20px;
+      border-radius: 50px;
+      
+      
+    }
+    .area h4{
+        text-align: center;
+        font-size: 30px;
+        text-transform: capitalize;
+        color: #292e61;
+        text-shadow: 3px 0px 3px rgba(0,0,0,0.6);       
+
+
+    }
+    .area h5{
+        text-align: center;
+        font-size: 20px;
+        text-transform: capitalize;
+        color: #25637b;
+        padding-top: 10px;
+        text-shadow: -1px 1px 3px rgba(10,8,8,0.6);
+
+    }
+    
+
+
+
+    .user{
+        width:380px;
+        height:40px;
+        margin:50px 10px;
+       
+    }
+    .user h6{
+        font-size: 20px;
+        padding-bottom: 10px;
+        color: #2a2b2c;
+
+    }
+    .user1{
+        width:80px;
+        height:40px;
+        background: #9ea0a2;
+        float:left;
+       
+    }
+    .user1 i{
+        position:absolute;
+        padding-left:30px;
+        padding-top:5px;
+        font-size: 30px;
+    
+    }
+    .user2{
+        width:300px;
+        height:40px;
+        background: #fff87d;
+        float:left;
+       
+    }
+    .user2 input{
+        width: calc(360px  - 60px);
+        height:40px;
+        font-size: 15px; 
+        font-weight: bolder; 
+      
+    }
+    .passward{
+        width:380px;
+        height:40px;
+       
+        margin:50px 10px;
+    }
+    .passward h6{
+        font-size: 20px;
+        padding-bottom: 10px;
+        color: #2a2b2c;
+
+    }
+    .passward1{
+        width:80px;
+        height:40px;
+        background: #9ea0a2;
+        float:left;
+       
+    }
+    .passward1 i{
+        position:absolute;
+        padding-left:30px;
+        padding-top:5px;
+        font-size: 30px;
+    }
+    .passward2{
+        width:300px;
+        height:40px;
+        background: #fff87d;
+        float:left;
+       
+    }
+    .passward2 input{
+        width: calc(360px  - 60px);
+        height:40px;
+        font-size: 15px; 
+        font-weight: bolder;  
+    }
+    .login{
+        width:380px;
+        height:40px;
+        //background: #00ff55;
+        margin:70px 10px;
+        padding-left:150px;
+        text-transform: capitalize;
+        padding-top: 5px;
+        border-radius: 10px;
+    }
+    .login h2 a:link,.login h2 a:visited{
+        color:rgb(255, 255, 255);
+        text-decoration: none;
+        background: hwb(234 3% 0%);
+        padding:10px 80px;
+      
+        border-radius: 10px;
+    }
+    .login h2:hover a{
+        background-color: #4f51ff;
+       
+    }
+ 
+    .login p{
+        
+       position: absolute;
+       padding-top:10px;
+ 
+     
+      
+    }
+    .login p a{
+        text-decoration: none;
+        color: #0716b4;
+    }
+    .area p{
+        text-align: right;
+        padding-right: 40px;
+        font-size: 20px;
+        line-height: 30px;
+        
+    }
+    .f a{
+        text-decoration: none;
+        color: #4b5afe;
+
+    }
+
+
+
+
